@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C0CB3D1-A9DE-1D91-C34B-0CB5FD8F867E" name="ARL_Division">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>7503111A-BA47-44D0-0973-06343204EE78</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="division_id" id="915D99D2-5B5C-60E8-AD4A-AB3C4656DC58">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>1C5009A4-3FDA-2013-E165-CAFBC2C3F8DE</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="83B1BAA8-B76B-CEE6-567D-B080FE1879E4">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>475A0C80-FE9A-0DE5-D7C2-4912C48B131B</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_Lab_lab_id" id="4AD35203-3BAD-51A4-55B5-AFE3B7762FA4">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>3B104CAF-CD3B-E20C-58EE-6B1633E8610C</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F7A9B24D-A0A9-BEC3-510B-C2CDDECFA8F5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A181611A-3D6F-6720-BE61-DBE541D295CC" referredColumn="F7A9B24D-A0A9-BEC3-510B-C2CDDECFA8F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A1A0FAD-FC58-5B76-3A99-A005E09A6D8F" name="ARL_Division_PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>3FDDEDF9-D064-5CDC-3761-A1AAE4E08D25</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="915D99D2-5B5C-60E8-AD4A-AB3C4656DC58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BB23829-29AD-C06E-5697-D7F7C89EF3BD" name="ARL_Division_ARL_Lab_FK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>41FCD00C-B98E-B9DA-886A-51037F629DA0</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD35203-3BAD-51A4-55B5-AFE3B7762FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

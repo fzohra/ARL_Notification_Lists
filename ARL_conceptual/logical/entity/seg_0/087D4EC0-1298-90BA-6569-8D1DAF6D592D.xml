@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="087D4EC0-1298-90BA-6569-8D1DAF6D592D" name="ARL_Lab">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:17:43 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lab_id" id="99D73FFE-7E5E-ED1C-4A04-6732A771AC41">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:17:51 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="code" id="872F411A-506C-B22C-10A2-C49FE8941CB1">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:18:03 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF65D6CF-435A-7B3C-0A8F-AAF6F5CB7D14" name="{entity} PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:18:00 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99D73FFE-7E5E-ED1C-4A04-6732A771AC41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARL Notification List Members ARL Employees FK" directorySegmentName="seg_0" id="E954E52D-96F5-7DD1-D8DE-7E88F4D201FA">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-06 20:32:50 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<engineerTo>
+<item key="0518EF11-E844-C952-3A16-4828F765D0F3" value="true"/>
+</engineerTo>
+<sourcePk>CA5DD128-93C8-5F72-3CB0-D8DF228377C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61AEB399-2D13-AF56-CEF7-5B50028B117C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA8572D8-7E77-5581-2F14-5F62F1706EB9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

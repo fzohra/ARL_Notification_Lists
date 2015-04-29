@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5640E8AB-3195-498E-8791-BFB4C91C5A76" name="ARL_Members">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>081BF397-6217-3145-29D7-D05DBBDF97F9</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="9FC250A4-CF5A-FCC7-DEF1-6F01036059F5">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>5E2DB190-4963-1A11-F4D3-03857AE5597B</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_added" id="2614EB88-08F1-FD36-28D2-E07FE31E77C6">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>C434DBB4-0586-8918-7784-2D89389B9E5A</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_Employees_employee_id" id="4DFD9140-46E8-EC68-65DD-C8029069BB30">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>EA3E2997-61AE-B5D1-73A0-7B75E27D1151</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D90B9658-E32F-F8D3-E2B3-32BA9A5930CF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAA37585-61DE-32B4-B67C-D0646755DCAA" referredColumn="D90B9658-E32F-F8D3-E2B3-32BA9A5930CF"/>
+</associations>
+</Column>
+<Column name="user_name" id="E62F6459-3175-95F9-CA69-65895AFDB191">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<comment>Used to &quot;reference&quot; APEX User</comment>
+<generatorID>96FE58AF-00C1-8F8B-F865-FD758C34732A</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DFF5464-B523-7C3F-E4C9-B2E48E01FC38" name="ARL_Members_PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>5593BE2E-274A-438D-1B79-90667A301375</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC250A4-CF5A-FCC7-DEF1-6F01036059F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12BF8E23-937D-7B9F-BBC1-D312723F499B" name="ARL_Members_ARL_Employees_FK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 04:47:34 UTC</createdTime>
+<generatorID>3BB57D23-C1AD-D85B-F0BA-1F77F34599B8</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DFD9140-46E8-EC68-65DD-C8029069BB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

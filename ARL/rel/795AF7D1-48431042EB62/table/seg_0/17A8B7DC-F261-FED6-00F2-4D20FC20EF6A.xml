@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17A8B7DC-F261-FED6-00F2-4D20FC20EF6A" name="ARL_Employees">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>80B0FB45-D0C3-2D88-0C6A-C431C26130B5</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="A3712E22-52C1-899D-D757-6686EBF97764">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>D7FC1EB9-F02F-95A5-8D86-60612941C286</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_name" id="137FA495-166F-14A0-8350-E5C11054D162">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<comment>Format: LastName, FirstName MI.</comment>
+<generatorID>91DF2CC6-7AFF-5EA2-EC87-643E3D3F91B0</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_lab" id="5AA35259-7E85-CE85-1D1D-E7BC57D177D7">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>9D4775B8-651A-A15E-8DFB-A7C3EF4B6D94</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_division" id="E0848C88-C5B5-54FF-7D49-7AFDA04CE396">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>95CC81B0-AC6F-52DC-2F77-8E5CA9F18657</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_status" id="3DBB8C8B-9E37-3D68-4658-C89DD892B505">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>B873DC9E-D2D4-D831-EC6B-DFBE43A5853E</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_eff_date" id="A14B40D3-9154-32E4-C8D3-1B71BFFC4E87">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>2BCB4AE5-31FD-CFDF-577E-A99FBB614F3E</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="admin" id="C2552A77-3C2F-AE5D-3457-47E38420C42E">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>4C53F659-B841-056D-6B7D-07D36B108490</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F28E75D-ADB6-58BB-153F-D63200EBCB0F" name="ARL_Employees_PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 23:08:48 UTC</createdTime>
+<generatorID>6799F07E-5D3D-3D87-1DBD-9E227F870A20</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3712E22-52C1-899D-D757-6686EBF97764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

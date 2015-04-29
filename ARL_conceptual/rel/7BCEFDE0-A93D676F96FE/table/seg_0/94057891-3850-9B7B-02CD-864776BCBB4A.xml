@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94057891-3850-9B7B-02CD-864776BCBB4A" name="ARL_Notification_List">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>C59C6503-C811-EBC6-6C7F-BBD5040C0348</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="list_seq_id" id="5674BA0D-00D4-112F-8ED2-BE48F1A8E475">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>3784B96E-ACF9-FDE8-A4B7-BECCA30697C7</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_name" id="1C8CF0D9-6920-0887-CC42-CC99ABE2393C">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>C1EB25ED-4329-4918-B9E1-846C9D8CD1DF</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownership_division_code" id="0BF4528C-1F23-333B-FBAA-8C49CCEB5D2A">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>667508D7-520C-323E-1FF0-34DCE14AAB72</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_description" id="6641D24E-C751-B55A-C72C-434B6DD53322">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>246231BF-03FF-9CE7-8E0F-B8FA92E08C96</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="F7088F92-04E6-38CF-C42C-0FB7C305C2BC">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>AA9ACB67-9B3C-5C9B-1CC2-45AD5CC10C16</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="8CFB6A06-AD7C-FC21-0317-0B68938C9CB5">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>7E12CFC1-A6F8-36E1-39DD-D4FC3959CEE9</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_status" id="96CC5910-C3A2-A604-D984-396F3156BB25">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<comment>Must be either A or I</comment>
+<generatorID>84F126B1-56FE-BF6D-ECB1-60F6D6E025FD</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_eff_date" id="81109259-7B7D-3206-413F-5E56337C0737">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>820B90D9-62DE-38F3-9792-CC9C227F0273</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED175BD3-BFEF-0581-EE61-750AF129BDD4" name="ARL_Notification_List_PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:22:41 UTC</createdTime>
+<generatorID>1918B042-6005-3730-BB46-F7F5E1611192</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5674BA0D-00D4-112F-8ED2-BE48F1A8E475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

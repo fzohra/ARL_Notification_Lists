@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C59C6503-C811-EBC6-6C7F-BBD5040C0348" name="ARL_NL">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="list seq id" id="3784B96E-ACF9-FDE8-A4B7-BECCA30697C7">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>05123B93-031E-CE2F-B884-357275BE0CB4</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list name" id="C1EB25ED-4329-4918-B9E1-846C9D8CD1DF">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>1BA096E4-E47E-1DFB-E975-483C82F41D2B</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ownership division code" id="667508D7-520C-323E-1FF0-34DCE14AAB72">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>903EC68E-EB56-4F66-9F3F-91EF55B1A9BC</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="list description" id="246231BF-03FF-9CE7-8E0F-B8FA92E08C96">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>57B270D3-7F15-625C-8135-8B2FDECA86E7</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3500</dataTypeSize>
+</Attribute>
+<Attribute name="external view name" id="AA9ACB67-9B3C-5C9B-1CC2-45AD5CC10C16">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>43868F5C-4106-F4B8-EB9D-0D77F8242301</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="creation date" id="7E12CFC1-A6F8-36E1-39DD-D4FC3959CEE9">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>FCEC9FB5-6530-6462-9428-EFA8B705C2CF</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="list status" id="84F126B1-56FE-BF6D-ECB1-60F6D6E025FD">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<comment>Must be either A or I</comment>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>A7FEC54D-5265-0DE0-98F8-01FDBBBAA23B</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="status eff date" id="820B90D9-62DE-38F3-9792-CC9C227F0273">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<importedID>E85BDEF2-8C39-FABF-E72B-8DEA7F27546D</importedID>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1918B042-6005-3730-BB46-F7F5E1611192" name="ARL_Notification_List_PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:17:01 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<engineerTo>
+<item key="7BCEFDE0-3F98-F368-3BD4-A93D676F96FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3784B96E-ACF9-FDE8-A4B7-BECCA30697C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

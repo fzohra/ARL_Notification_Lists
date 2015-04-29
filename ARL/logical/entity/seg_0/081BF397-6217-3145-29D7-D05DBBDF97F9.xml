@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="081BF397-6217-3145-29D7-D05DBBDF97F9" name="ARL_Members">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 21:55:37 UTC</createdTime>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="member_id" id="5E2DB190-4963-1A11-F4D3-03857AE5597B">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 20:18:42 UTC</createdTime>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date_added" id="C434DBB4-0586-8918-7784-2D89389B9E5A">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 21:57:03 UTC</createdTime>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="employee_id" id="EA3E2997-61AE-B5D1-73A0-7B75E27D1151">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-15 22:51:14 UTC</createdTime>
+<generatorID>3BB57D23-C1AD-D85B-F0BA-1F77F34599B8</generatorID>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7FC1EB9-F02F-95A5-8D86-60612941C286</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="user_name" id="96FE58AF-00C1-8F8B-F865-FD758C34732A">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-25 01:14:47 UTC</createdTime>
+<comment>Used to &quot;reference&quot; APEX User</comment>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5593BE2E-274A-438D-1B79-90667A301375" name="{entity} PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 21:56:13 UTC</createdTime>
+<ownerDesignName>ARL</ownerDesignName>
+<engineerTo>
+<item key="1A260F06-BC3E-26A6-9687-A023B6C9309B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E2DB190-4963-1A11-F4D3-03857AE5597B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

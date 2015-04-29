@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="190AEE7E-F3B2-FCFF-3AE0-19A6B81F0622" name="ARL_Division">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:18:42 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="division_id" id="912B19AE-EAB8-9F00-2D0E-639CBE59E430">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:18:50 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="code" id="ECD9C8FD-2903-61ED-926E-A0F17EB6EE9D">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:19:10 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="lab_id" id="6915BC3B-8CFC-485C-416F-E094ABA80139">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:20:27 UTC</createdTime>
+<generatorID>135C6324-0A55-89D6-70E3-3A1FC4A139EB</generatorID>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>99D73FFE-7E5E-ED1C-4A04-6732A771AC41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F123BD76-7939-49FC-E98F-5CAA11293557" name="{entity} PK">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-29 15:19:34 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>912B19AE-EAB8-9F00-2D0E-639CBE59E430</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

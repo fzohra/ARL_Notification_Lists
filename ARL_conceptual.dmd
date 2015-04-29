@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ARL_conceptual" id="3C6BB9FD-5ED6-638A-BADD-E7F078F07835" version="3.5">
+<createdBy>fz</createdBy>
+<createdTime>2015-04-01 22:13:53 UTC</createdTime>
+<ownerDesignName>ARL_conceptual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3C6BB9FD-5ED6-638A-BADD-E7F078F07835</designId>
+</OSDM_Design>
